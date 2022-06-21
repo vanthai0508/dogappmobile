@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".DetailActivity">
+    <ImageView
+        android:id="@+id/thumbnaildetail"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_centerHorizontal="true"
+        android:background="#c0c0c0"
+        />
+    <TextView
+        android:layout_below="@id/thumbnaildetail"
+        android:id="@+id/tv_namedetail"
+        android:textSize="14sp"
+        android:text="Name: "
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@id/tv_namedetail"
+        android:textSize="14sp"
+        android:text="Bredfor: "
+        android:textStyle="bold"
+        android:id="@+id/tv_bredfor"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@id/tv_bredfor"
+        android:id="@+id/tv_breedgroup"
+        android:textSize="14sp"
+        android:text="Breedgroup: "
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@id/tv_breedgroup"
+        android:id="@+id/tv_height"
+        android:textSize="14sp"
+        android:text="Height: "
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_below="@id/tv_height"
+        android:id="@+id/tv_lifespandetail"
+        android:textSize="14sp"
+        android:text="lifespan: "
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@id/tv_lifespandetail"
+        android:id="@+id/tv_origindetail"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:textSize="14sp"
+        android:text="Origin: "
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@id/tv_origindetail"
+        android:id="@+id/tv_temperament"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:textSize="14sp"
+        android:text="Temperament: "
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@id/tv_temperament"
+        android:id="@+id/tv_weight"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:textSize="14sp"
+        android:text="Weight: "
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
